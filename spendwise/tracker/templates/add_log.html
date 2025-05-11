@@ -1,0 +1,15 @@
+<!-- --- tracker/templates/tracker/add_log.html --- -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Finance Entry</title>
+</head>
+<body>
+    <h1>Enter Daily Financial Log</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
