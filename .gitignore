@@ -1,0 +1,9 @@
+*.env
+*.pdf
+*.jpg
+*.png
+*.txt
+*.json
+*.pyc
+
+.venv/
